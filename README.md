@@ -1,12 +1,14 @@
 # phase-0-gps-1
-git clone - Clone pulls data from an online repository (github) to local 
-ls - List the files in the directory 
-cd phase-0-gps-1 - cd change directory. 
-touch awesome_page.md - Touch creates a new file 
-push origin master - Pushes the information back to the online repository (github)
-git status - Shows the status of the repository
-git add awesome_page.md - prepairs files for commit 
-git commit -m 'added file' - records changes made to the file to the repository and adds a message to notify changes that were made
-git co -b add-command-log - adds new branch
-git branch - displays branches and which branch is currently selected
-subl readme.md - opens file in sublime
+git clone - Clone pulls data from online repository (github) to local computer
+ls - List the files in the directory
+cd phase-0-gps-1 - cd change directory.
+touch - Touch creates a new file
+git push - Pushes the information back to github
+git status - Displays the files in the repository and higlights any that have changes made
+git add awesome_page.md - readys a file that has been modified for recording
+git commit -m 'added file' - Records the changes to the file and adds a personal message of the changes that were made
+git push origin master - uploads the master branch to online repository (github)
+git co -b add-command-log - adds a new branch
+git branch - displays branches in your repository
+git co add-command-log - moves you to a specified branch
+subl readme.md - opens file in sublime text editor
